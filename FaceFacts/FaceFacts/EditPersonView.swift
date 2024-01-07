@@ -15,6 +15,13 @@ struct EditPersonView: View {
             Section {
                 TextField("Name", text: $person.name)
                     .textContentType(.name)
+                TextField("Email address", text: $person.emailAddress)
+                    .textContentType(.emailAddress)
+                    .textInputAutocapitalization(.never)
+            }
+            
+            Section("Notes") {
+                TextField("Details about this person", text: $person.details, axis: .vertical)
             }
         }
         .navigationTitle("Edit person")

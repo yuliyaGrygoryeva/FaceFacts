@@ -13,6 +13,7 @@
 		9EBFA5E42B4A6100008D46B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBFA5E32B4A6100008D46B7 /* Preview Assets.xcassets */; };
 		9EBFA5EB2B4A6177008D46B7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBFA5EA2B4A6177008D46B7 /* Person.swift */; };
 		9EBFA5ED2B4B5FF8008D46B7 /* EditPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBFA5EC2B4B5FF8008D46B7 /* EditPersonView.swift */; };
+		9EBFA5EF2B4B6767008D46B7 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBFA5EE2B4B6767008D46B7 /* PeopleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9EBFA5E32B4A6100008D46B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9EBFA5EA2B4A6177008D46B7 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		9EBFA5EC2B4B5FF8008D46B7 /* EditPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonView.swift; sourceTree = "<group>"; };
+		9EBFA5EE2B4B6767008D46B7 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				9EBFA5DB2B4A60FF008D46B7 /* FaceFactsApp.swift */,
 				9EBFA5DD2B4A60FF008D46B7 /* ContentView.swift */,
+				9EBFA5EE2B4B6767008D46B7 /* PeopleView.swift */,
 				9EBFA5EC2B4B5FF8008D46B7 /* EditPersonView.swift */,
 				9EBFA5DF2B4A6100008D46B7 /* Assets.xcassets */,
 				9EBFA5E12B4A6100008D46B7 /* FaceFacts.entitlements */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EBFA5EB2B4A6177008D46B7 /* Person.swift in Sources */,
+				9EBFA5EF2B4B6767008D46B7 /* PeopleView.swift in Sources */,
 				9EBFA5DE2B4A60FF008D46B7 /* ContentView.swift in Sources */,
 				9EBFA5DC2B4A60FF008D46B7 /* FaceFactsApp.swift in Sources */,
 				9EBFA5ED2B4B5FF8008D46B7 /* EditPersonView.swift in Sources */,
